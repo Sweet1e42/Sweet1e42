@@ -25,10 +25,4 @@
 </a>
 
 <!-- Карточки xd -->
-<a href="https://github.com/Sweet1e42">
-   <img src="https://github-readme-stats.vercel.app/api?username=Sweet1e42&show_icons=true&theme=tokyonight&title_color=3296ff&icon_color=3296ff" alt="Info">
-</a>
-
-<a href="https://github.com/Sweet1e42">
-   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sweet1e42&layout=compact" alt="Info">
-</a>
+[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=Sweet1e42&show_icons=true&theme=tokyonight&title_color=3296ff&icon_color=3296ff)](hhttps://github.com/Sweet1e42)
