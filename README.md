@@ -8,10 +8,13 @@
 </a>
 
 ## Language and Tools
+<a href="https://github.com/Rapptz/discord.py">
+   <img src="https://img.shields.io/badge/DISCORD.PY-1.7.3-3296ff?style=for-the-badge&logo=discord&logoColor=FFFFFF" alt="Discord.py">
+</a>
+<a href="https://www.python.org/">
+   <img src="https://img.shields.io/badge/PYTHON-3.9.1-3296ff?style=for-the-badge&logo=python&logoColor=FFFFFF" alt="Python">
+</a>
 
-![Discord.py](https://img.shields.io/badge/DISCORD.PY-3296ff?style=for-the-badge&logo=discord&logoColor=FFFFFF)
-![Python](https://img.shields.io/badge/PYTHON-3296ff?style=for-the-badge&logo=python&logoColor=FFFFFF)
-<!-- ![С#](https://img.shields.io/badge/C-3296ff?style=for-the-badge&logo=.net&logoColor=FFFFFF) -->
 
 ## Follow me
 [![YouTube](https://img.shields.io/badge/YouTube-3296ff?style=for-the-badge&logo=YouTUbe&logoColor=FFFFFF)](https://www.youtube.com/channel/UC2Ic2J17SP4jJkFxuMLy4qQ)
