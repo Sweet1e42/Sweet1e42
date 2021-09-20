@@ -25,4 +25,6 @@
 </a>
 
 <!-- Карточки xd -->
-[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=Sweet1e42&show_icons=true&theme=tokyonight&title_color=3296ff&icon_color=3296ff)](hhttps://github.com/Sweet1e42)
+[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=Sweet1e42&show_icons=true&theme=tokyonight&title_color=3296ff&icon_color=3296ff)](https://github.com/Sweet1e42)
+
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Sweet1e42&langs_count=4)](https://github.com/Sweet1e42)
