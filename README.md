@@ -14,6 +14,9 @@
 <a href="https://www.python.org/">
    <img src="https://img.shields.io/badge/PYTHON-3.9.1-3296ff?style=for-the-badge&logo=python&logoColor=FFFFFF" alt="Python">
 </a>
+<a href="https://docs.stillu.cc/index.html">
+   <img src="https://img.shields.io/badge/discord.net-3.0.0-3296ff?style=for-the-badge&logo=.net&logoColor=FFFFFF" alt="discord.NET">
+</a>
 
 ---
 ## Follow me
