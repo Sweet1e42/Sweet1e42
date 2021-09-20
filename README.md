@@ -21,5 +21,14 @@
    <img src="https://img.shields.io/badge/YouTube-Channel-ff0000?style=for-the-badge&logo=YouTube&logoColor=ff0000" alt="YouTube Channel">
 </a>
 <a href="https://vk.com/sweet1e42dev">
-   <img src="https://img.shields.io/badge/VK-Group-0064ff?style=for-the-badge&logo=Vk&logoColor=0064ff" alt="">
+   <img src="https://img.shields.io/badge/VK-Group-0064ff?style=for-the-badge&logo=Vk&logoColor=0064ff" alt="VK Group">
+</a>
+
+<!-- Карточки xd -->
+<a href="https://github.com/Sweet1e42">
+   <img src="https://github-readme-stats.vercel.app/api?username=Sweet1e42&show_icons=true&theme=tokyonight&title_color=3296ff&icon_color=3296ff" alt="Info">
+</a>
+
+<a href="https://github.com/Sweet1e42">
+   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sweet1e42&layout=compact" alt="Info">
 </a>
