@@ -1,12 +1,11 @@
-.. image:: https://github.com/Sweet1e42/Sweet1e42/blob/main/Assets/VK.png
-   :target: https://discord.gg/CWsuHRadJX
-
-<!-- [![Header](https://github.com/Sweet1e42/Sweet1e42/blob/main/Assets/VK.png)](https://discord.gg/CWsuHRadJX) -->
+[![Header](https://github.com/Sweet1e42/Sweet1e42/blob/main/Assets/VK.png)](https://discord.gg/CWsuHRadJX)
 
 ## Привет o/ Я Sweet1e42, Снимаю видео на YouTube и делаю Discord ботов!
 
 ## Наш прекрасный сервер
-![Discord.py](https://img.shields.io/badge/ONLINE-<MESSAGE>-<COLOR>)
+<a href="https://discord.gg/CWsuHRadJX">
+   <img src="https://discordapp.com/api/guilds/793509592378114078/widget.png?style=banner2" alt="Discord Server">
+</a>
 
 ## Language and Tools
 
