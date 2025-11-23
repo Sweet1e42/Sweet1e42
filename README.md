@@ -1,17 +1,4 @@
 <!-- ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ -->
-<!-- 🎴 ANIMATED HEADER -->
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?size=28&duration=4000&color=3296FF&center=true&vCenter=true&width=700&lines=Привет!+Я+Sweet1e42+👋;Python+%7C+Discord+Bots+Developer+🐍;Создаю+ботов+%26+инструменты+для+комьюнити+⚙️" alt="Typing Animation">
-</p>
-
-<!-- BANNER -->
-<p align="center">
-  <a href="https://discord.gg/CWsuHRadJX">
-    <img src="https://github.com/Sweet1e42/Sweet1e42/blob/main/Assets/VK.png" width="70%" alt="Banner">
-  </a>
-</p>
-
-<!-- ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ -->
 
 <h2 align="center">✨ Немного обо мне</h2>
 
