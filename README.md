@@ -1,13 +1,11 @@
-<!-- ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ -->
-
-<h2 align="center">✨ Немного обо мне</h2>
+<h1 align="center">Привет! Я Sweet1e42 👋</h1>
 
 <p align="center">
-  💠 Разрабатываю Discord-ботов на Python и .NET  
+  🐍 Python & Discord Bots Developer  
   <br>
-  💠 Изучаю автоматизации, API и архитектуру ботов  
+  ⚙️ Создаю инструменты и ботов для комьюнити  
   <br>
-  💠 Люблю улучшать комьюнити-проекты и делать полезные инструменты  
+  🌑 Люблю тёмные интерфейсы и чистый код  
 </p>
 
 <p align="center">
@@ -47,15 +45,3 @@
   <img src="https://github-readme-stats.vercel.app/api?username=Sweet1e42&show_icons=true&theme=tokyonight&include_all_commits=true&hide_border=false&icon_color=3296ff&title_color=3296ff" height="165">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=Sweet1e42&theme=tokyonight&hide_border=false&ring=3296ff&fire=3296ff&currStreakLabel=ffffff" height="165">
 </p>
-
----
-
-## 🌀 Анимированная декорация
-<p align="center">
-  <img src="https://raw.githubusercontent.com/aman-atg/aman-atg/master/assets/wave.svg" width="100%" alt="wave animation">
-</p>
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/bornmay/bornmay/Update/svg/Bottom.svg" width="100%" alt="bottom wave">
-</p>
-
