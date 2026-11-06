@@ -13,9 +13,8 @@ jobs:
       - uses: gautamkrishnar/blog-post-workflow@v1
         with:
           comment_tag_name: YOUTUBE
-
           feed_list: "https://www.youtube.com/feeds/videos.xml?channel_id=UC2Ic2J17SP4jJkFxuMLy4qQ"
-          max_post_count: 5
-          template: '<a href="$url"><img width="30%" src="$randomThumbnail" alt="$title" title="$title" /></a> '
-          image_tag: "$randomThumbnail"
-          commit_message: "📺 Обновлены последние видео"
+          max_post_count: 4
+          custom_tags: "videoId/yt:videoId/"
+          template: '<a href="$url"><img width="32%" src="https://i.ytimg.com/vi/$videoId/mqdefault.jpg" alt="$title" title="$title" /></a> '
+          commit_message: "Update latest videos"
