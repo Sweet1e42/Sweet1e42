@@ -14,7 +14,7 @@ jobs:
         with:
           comment_tag_name: YOUTUBE
 
-          feed_list: "https://www.youtube.com/feeds/videos.xml?channel_id=@sweet1e42"
+          feed_list: "https://www.youtube.com/feeds/videos.xml?channel_id=UC2Ic2J17SP4jJkFxuMLy4qQ"
           max_post_count: 5
           template: '<a href="$url"><img width="30%" src="$randomThumbnail" alt="$title" title="$title" /></a> '
           image_tag: "$randomThumbnail"
