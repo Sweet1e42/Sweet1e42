@@ -101,7 +101,7 @@ class Sweet1e42:
 <h3 align="center">📺 Последние видео</h3>
 
 <p align="center">
-<!-- YOUTUBE:START --><a href="https://www.youtube.com/watch?v=xUQFX3Jana0"><img width="30%" src="$randomThumbnail" alt="Эмбеды и кнопки в Discord боте на Python | disnake | Эпизод 2" title="Эмбеды и кнопки в Discord боте на Python | disnake | Эпизод 2" /></a><a href="https://www.youtube.com/watch?v=oNU59VmXWlo"><img width="30%" src="$randomThumbnail" alt="Discord бот на Python с нуля | disnake | Эпизод 1" title="Discord бот на Python с нуля | disnake | Эпизод 1" /></a><!-- YOUTUBE:END -->
+<!-- YOUTUBE:START --><a href="https://www.youtube.com/watch?v=xUQFX3Jana0"><img width="32%" src="https://i.ytimg.com/vi/xUQFX3Jana0/mqdefault.jpg" alt="Эмбеды и кнопки в Discord боте на Python | disnake | Эпизод 2" title="Эмбеды и кнопки в Discord боте на Python | disnake | Эпизод 2" /></a><a href="https://www.youtube.com/watch?v=oNU59VmXWlo"><img width="32%" src="https://i.ytimg.com/vi/oNU59VmXWlo/mqdefault.jpg" alt="Discord бот на Python с нуля | disnake | Эпизод 1" title="Discord бот на Python с нуля | disnake | Эпизод 1" /></a><!-- YOUTUBE:END -->
 </p>
 
 <p align="center">
