@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:5865F2,100:8A2BE2&height=180&section=header&text=Sweet1e42&fontSize=60&fontColor=ffffff&fontAlignY=35&desc=Python%20%26%20Discord%20Bots%20Developer&descAlignY=58&descSize=18&animation=fadeIn" width="100%" alt="header" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:5865F2,100:8A2BE2&height=180&section=header&text=Sweet1e42&fontSize=60&fontColor=ffffff&fontAlignY=35&desc=Python%20%7C%20Discord%20Bots%20Developer&descAlignY=58&descSize=18&animation=fadeIn" width="100%" alt="header" />
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=5865F2&center=true&vCenter=true&width=650&lines=%D0%9F%D1%80%D0%B8%D0%B2%D0%B5%D1%82!+%D0%AF+Sweet1e42+%F0%9F%91%8B;%D0%9F%D0%B8%D1%88%D1%83+Discord-%D0%B1%D0%BE%D1%82%D0%BE%D0%B2+%D0%BD%D0%B0+Python;%D0%A1%D0%BD%D0%B8%D0%BC%D0%B0%D1%8E+%D1%83%D1%80%D0%BE%D0%BA%D0%B8+%D0%BD%D0%B0+YouTube;%D0%9B%D1%8E%D0%B1%D0%BB%D1%8E+%D1%82%D1%91%D0%BC%D0%BD%D1%8B%D0%B5+%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D1%84%D0%B5%D0%B9%D1%81%D1%8B+%D0%B8+%D1%87%D0%B8%D1%81%D1%82%D1%8B%D0%B9+%D0%BA%D0%BE%D0%B4" alt="Typing SVG" />
 
@@ -144,18 +144,18 @@ class Sweet1e42:
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=Sweet1e42&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&locale=ru" alt="GitHub stats" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sweet1e42&layout=compact&theme=tokyonight&hide_border=true&locale=ru" alt="Top languages" />
+<img src="https://raw.githubusercontent.com/Sweet1e42/Sweet1e42/main/metrics/stats.svg" alt="GitHub stats" />
+<img src="https://raw.githubusercontent.com/Sweet1e42/Sweet1e42/main/metrics/languages.svg" alt="Top languages" />
 
 <img src="https://streak-stats.demolab.com?user=Sweet1e42&theme=tokyonight&hide_border=true&locale=ru" alt="GitHub streak" />
 
-<h3 align="center">🏆 Трофеи</h3>
+<h3 align="center">🏆 Достижения</h3>
 
-<img src="https://github-profile-trophy.vercel.app/?username=Sweet1e42&theme=tokyonight&no-frame=true&no-bg=true&margin-w=6&column=7" alt="Trophies" />
+<img src="https://raw.githubusercontent.com/Sweet1e42/Sweet1e42/main/metrics/achievements.svg" alt="Achievements" />
 
 <h3 align="center">📊 График активности</h3>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Sweet1e42&theme=tokyo-night&hide_border=true&area=true" width="100%" alt="Activity graph" />
+<img src="https://raw.githubusercontent.com/Sweet1e42/Sweet1e42/main/metrics/calendar.svg" alt="Activity calendar" />
 
 <h3 align="center">🐍 Змейка по коммитам</h3>
 
