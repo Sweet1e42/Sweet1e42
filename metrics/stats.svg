@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="220" viewBox="0 0 400 220">
+<style>
+.t{font:600 18px 'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif;fill:#70a5fd}
+.l{font:600 14px 'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif;fill:#38bdae}
+.v{font:700 14px 'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif;fill:#a9b1d6}
+.s{font:400 11px 'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif;fill:#a9b1d6}
+</style>
+<rect x="0.5" y="0.5" rx="4.5" width="399" height="219" fill="#1a1b27" stroke="#1a1b27"/>
+<text x="25" y="35" class="t">Статистика Sweet1e42</text>
+<text x="25" y="70" class="l" style="fill:#bf91f3">★</text><text x="48" y="70" class="l">Звёзд получено:</text><text x="250" y="70" class="v">1</text>
+<text x="25" y="94" class="l" style="fill:#bf91f3">⎇</text><text x="48" y="94" class="l">Коммитов за год:</text><text x="250" y="94" class="v">31</text>
+<text x="25" y="118" class="l" style="fill:#bf91f3">⇄</text><text x="48" y="118" class="l">Pull requests:</text><text x="250" y="118" class="v">0</text>
+<text x="25" y="142" class="l" style="fill:#bf91f3">!</text><text x="48" y="142" class="l">Issues:</text><text x="250" y="142" class="v">0</text>
+<text x="25" y="166" class="l" style="fill:#bf91f3">▣</text><text x="48" y="166" class="l">Репозиториев:</text><text x="250" y="166" class="v">1</text>
+<text x="25" y="190" class="l" style="fill:#bf91f3">♥</text><text x="48" y="190" class="l">Подписчиков:</text><text x="250" y="190" class="v">0</text>
+
+</svg>

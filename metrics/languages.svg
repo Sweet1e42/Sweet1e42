@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="350" height="220" viewBox="0 0 350 220">
+<style>
+.t{font:600 18px 'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif;fill:#70a5fd}
+.l{font:600 14px 'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif;fill:#38bdae}
+.v{font:700 14px 'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif;fill:#a9b1d6}
+.s{font:400 11px 'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif;fill:#a9b1d6}
+</style>
+<rect x="0.5" y="0.5" rx="4.5" width="349" height="219" fill="#1a1b27" stroke="#1a1b27"/>
+<text x="25" y="35" class="t">Языки</text>
+<clipPath id="c"><rect x="25" y="55" width="300" height="8" rx="4"/></clipPath><g clip-path="url(#c)"><rect x="25.0" y="55" width="300.0" height="8" fill="#3572A5"/></g><circle cx="30" cy="88" r="5" fill="#3572A5"/><text x="41" y="92" class="s" style="font-size:12px">Python 100.0%</text>
+
+</svg>
