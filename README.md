@@ -147,10 +147,6 @@ class Sweet1e42:
 
 <img src="https://streak-stats.demolab.com?user=Sweet1e42&theme=tokyonight&hide_border=true&locale=ru" alt="GitHub streak" />
 
-<h3 align="center">🏆 Достижения</h3>
-
-<img src="https://raw.githubusercontent.com/Sweet1e42/Sweet1e42/main/metrics/achievements.svg" alt="Achievements" />
-
 <h3 align="center">📊 График активности</h3>
 
 <img src="https://raw.githubusercontent.com/Sweet1e42/Sweet1e42/main/metrics/calendar.svg" alt="Activity calendar" />
