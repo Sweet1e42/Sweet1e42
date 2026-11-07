@@ -163,9 +163,103 @@ def calendar_svg(u):
     return card(width, y0 + 7 * (cell + gap) + 35, "Активность", body)
 
 
+INVITE = os.environ.get("DISCORD_INVITE", "XtyfDvn6Xe")
+
+
+def http_get(url):
+    req = urllib.request.Request(url, headers={"User-Agent": "profile-stats"})
+    with urllib.request.urlopen(req, timeout=30) as r:
+        return r.read()
+
+
+def data_uri(url, mime):
+    import base64
+    try:
+        return f"data:{mime};base64," + base64.b64encode(http_get(url)).decode()
+    except Exception as e:
+        print(f"image failed {url}: {e}", file=sys.stderr)
+        return None
+
+
+def wrap(text, width):
+    text = text.split(". ")[0].rstrip(".") + "." if ". " in text else text
+    lines, cur = [], ""
+    for word in text.split():
+        if len(cur) + len(word) + 1 > width:
+            lines.append(cur)
+            cur = word
+        else:
+            cur = f"{cur} {word}".strip()
+    if cur:
+        lines.append(cur)
+    if len(lines) > 2:
+        lines = lines[:2]
+        lines[1] = lines[1].rstrip(" ,.") + "…"
+    return lines
+
+
+def discord_svg(inv, banner, icon):
+    g = inv["guild"]
+    w, h = 640, 220
+    bg = (
+        f'<image href="{banner}" x="0" y="0" width="{w}" height="{h}" preserveAspectRatio="xMidYMid slice" clip-path="url(#r)"/>'
+        if banner else f'<rect width="{w}" height="{h}" fill="url(#g)"/>'
+    )
+    ic = (
+        f'<image href="{icon}" x="28" y="62" width="96" height="96" clip-path="url(#ic)"/>'
+        if icon else f'<circle cx="76" cy="110" r="48" fill="#5865F2"/>'
+    )
+    desc = "".join(
+        f'<text x="148" y="{120 + i*20}" class="d">{escape(line)}</text>'
+        for i, line in enumerate(wrap(g.get("description") or "", 52))
+    )
+    return f"""<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{h}" viewBox="0 0 {w} {h}">
+<defs>
+<clipPath id="r"><rect width="{w}" height="{h}" rx="12"/></clipPath>
+<clipPath id="ic"><circle cx="76" cy="110" r="48"/></clipPath>
+<linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#5865F2"/><stop offset="1" stop-color="#8A2BE2"/></linearGradient>
+<linearGradient id="shade" x1="0" x2="1"><stop offset="0" stop-color="#0d1117" stop-opacity=".92"/><stop offset="1" stop-color="#0d1117" stop-opacity=".55"/></linearGradient>
+</defs>
+<style>
+.n{{font:700 30px {FONT};fill:#fff}}
+.d{{font:400 14px {FONT};fill:#c9d1d9}}
+.c{{font:600 14px {FONT};fill:#fff}}
+.b{{font:700 15px {FONT};fill:#fff}}
+</style>
+<g clip-path="url(#r)">{bg}<rect width="{w}" height="{h}" fill="url(#shade)"/></g>
+<circle cx="76" cy="110" r="51" fill="#0d1117"/>{ic}
+<text x="148" y="90" class="n">{escape(g["name"])}</text>
+{desc}
+<circle cx="154" cy="181" r="5" fill="#23a55a"/><text x="166" y="186" class="c">{inv.get("approximate_presence_count", 0)} онлайн</text>
+<circle cx="268" cy="181" r="5" fill="#80848e"/><text x="280" y="186" class="c">{inv.get("approximate_member_count", 0)} участников</text>
+<rect x="470" y="160" width="146" height="40" rx="8" fill="#5865F2"/>
+<text x="543" y="186" class="b" text-anchor="middle">Присоединиться</text>
+<rect x="0.5" y="0.5" width="{w-1}" height="{h-1}" rx="12" fill="none" stroke="#30363d"/>
+</svg>
+"""
+
+
+def write_discord():
+    try:
+        inv = json.loads(http_get(f"https://discord.com/api/v10/invites/{INVITE}?with_counts=true"))
+    except Exception as e:
+        print(f"discord failed: {e}", file=sys.stderr)
+        return
+    g = inv["guild"]
+    banner = icon = None
+    if g.get("banner"):
+        banner = data_uri(f"https://cdn.discordapp.com/banners/{g['id']}/{g['banner']}.jpg?size=640", "image/jpeg")
+    if g.get("icon"):
+        icon = data_uri(f"https://cdn.discordapp.com/icons/{g['id']}/{g['icon']}.png?size=128", "image/png")
+    with open(os.path.join(OUT, "discord.svg"), "w", encoding="utf-8") as f:
+        f.write(discord_svg(inv, banner, icon))
+    print(f"{OUT}/discord.svg ok")
+
+
 def main():
-    u = fetch()
     os.makedirs(OUT, exist_ok=True)
+    write_discord()
+    u = fetch()
     for name, fn in [("stats", stats_svg), ("languages", languages_svg), ("calendar", calendar_svg)]:
         with open(os.path.join(OUT, f"{name}.svg"), "w", encoding="utf-8") as f:
             f.write(fn(u))
