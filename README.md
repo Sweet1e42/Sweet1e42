@@ -5,7 +5,7 @@
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=5865F2&center=true&vCenter=true&width=650&lines=%D0%9F%D1%80%D0%B8%D0%B2%D0%B5%D1%82!+%D0%AF+Sweet1e42+%F0%9F%91%8B;%D0%9F%D0%B8%D1%88%D1%83+Discord-%D0%B1%D0%BE%D1%82%D0%BE%D0%B2+%D0%BD%D0%B0+Python;%D0%A1%D0%BD%D0%B8%D0%BC%D0%B0%D1%8E+%D1%83%D1%80%D0%BE%D0%BA%D0%B8+%D0%BD%D0%B0+YouTube;%D0%9B%D1%8E%D0%B1%D0%BB%D1%8E+%D1%82%D1%91%D0%BC%D0%BD%D1%8B%D0%B5+%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D1%84%D0%B5%D0%B9%D1%81%D1%8B+%D0%B8+%D1%87%D0%B8%D1%81%D1%82%D1%8B%D0%B9+%D0%BA%D0%BE%D0%B4" alt="Typing SVG" />
 
 <p>
-  <a href="https://discord.gg/XtyfDvn6Xa"><img src="https://img.shields.io/badge/Discord-SWAY-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://discord.gg/XtyfDvn6Xe"><img src="https://img.shields.io/badge/Discord-SWAY-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
   <a href="https://www.youtube.com/@sweet1e42"><img src="https://img.shields.io/badge/YouTube-Sweet1e42-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube" /></a>
   <a href="https://github.com/SWAY-gg"><img src="https://img.shields.io/badge/GitHub-SWAY--gg-181717?style=for-the-badge&logo=github&logoColor=white" alt="SWAY-gg" /></a>
 </p>
@@ -169,7 +169,7 @@ class Sweet1e42:
 
 <table align="center">
   <tr><th>Где</th><th>Ссылка</th></tr>
-  <tr><td>💬 Discord-сервер</td><td><a href="https://discord.gg/XtyfDvn6Xa">discord.gg/XtyfDvn6Xa</a></td></tr>
+  <tr><td>💬 Discord-сервер</td><td><a href="https://discord.gg/XtyfDvn6Xe">discord.gg/XtyfDvn6Xe</a></td></tr>
   <tr><td>▶️ YouTube</td><td><a href="https://www.youtube.com/@sweet1e42">@sweet1e42</a></td></tr>
   <tr><td>🫐 BlueBerry</td><td><a href="https://blueberry-bot.ru">blueberry-bot.ru</a></td></tr>
   <tr><td>🌊 WaveShape</td><td><a href="https://waveshape.ru">waveshape.ru</a></td></tr>
@@ -178,8 +178,8 @@ class Sweet1e42:
 
 <br/>
 
-<a href="https://discord.gg/XtyfDvn6Xa">
-  <img src="https://invidget.switchblade.xyz/XtyfDvn6Xa" alt="Discord server SWAY" />
+<a href="https://discord.gg/XtyfDvn6Xe">
+  <img src="https://raw.githubusercontent.com/Sweet1e42/Sweet1e42/main/metrics/discord.svg" alt="Discord server SWAY" width="600" />
 </a>
 
 <br/><br/>
